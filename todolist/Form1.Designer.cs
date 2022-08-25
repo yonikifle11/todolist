@@ -32,6 +32,7 @@
             this.add_bttn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.thing1label = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // tb1
@@ -55,26 +56,38 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 45);
+            this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(41, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 15);
+            this.label1.Size = new System.Drawing.Size(116, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "things to do ";
             // 
             // thing1label
             // 
             this.thing1label.AutoSize = true;
+            this.thing1label.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.thing1label.Location = new System.Drawing.Point(41, 124);
             this.thing1label.Name = "thing1label";
-            this.thing1label.Size = new System.Drawing.Size(41, 15);
+            this.thing1label.Size = new System.Drawing.Size(53, 16);
             this.thing1label.TabIndex = 5;
             this.thing1label.Text = "thing1";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.panel1.Location = new System.Drawing.Point(414, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(227, 319);
+            this.panel1.TabIndex = 6;
             // 
             // form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(640, 318);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.thing1label);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.add_bttn);
@@ -92,5 +105,6 @@
         private Button add_bttn;
         private Label label1;
         private Label thing1label;
+        private Panel panel1;
     }
 }

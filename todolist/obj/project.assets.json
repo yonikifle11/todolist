@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MIMI\\source\\repos\\todolist\\todolist\\todolist.csproj",
+      "projectUniqueName": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\individualproj\\todolist\\todolist\\todolist.csproj",
       "projectName": "todolist",
-      "projectPath": "C:\\Users\\MIMI\\source\\repos\\todolist\\todolist\\todolist.csproj",
+      "projectPath": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\individualproj\\todolist\\todolist\\todolist.csproj",
       "packagesPath": "C:\\Users\\MIMI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MIMI\\source\\repos\\todolist\\todolist\\obj\\",
+      "outputPath": "C:\\Users\\MIMI\\Documents\\GitHub\\projects\\individualproj\\todolist\\todolist\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MIMI\\AppData\\Roaming\\NuGet\\NuGet.Config",

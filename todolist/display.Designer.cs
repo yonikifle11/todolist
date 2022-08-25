@@ -38,7 +38,7 @@
             this.DGV1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.thing1});
-            this.DGV1.Location = new System.Drawing.Point(12, 99);
+            this.DGV1.Location = new System.Drawing.Point(21, 74);
             this.DGV1.Name = "DGV1";
             this.DGV1.RowTemplate.Height = 25;
             this.DGV1.Size = new System.Drawing.Size(751, 255);
@@ -54,8 +54,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.DGV1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "display";
             this.Text = "display";
             this.Load += new System.EventHandler(this.display_Load);
